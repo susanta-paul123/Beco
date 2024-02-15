@@ -1,0 +1,319 @@
+.banner{
+    position: relative;
+    .banner-caption{
+        position: absolute;
+        top: 60%;
+        transform: translateY(-50%);
+        z-index: 2;
+        padding: 0 5em;
+        width: 100%;
+        span{
+            color:$white;
+            font-size: 25px;
+            text-transform: uppercase;
+            display: block;
+            
+        }
+        p{
+            color:$white;
+            font-size: 20px; 
+            text-transform: uppercase;
+            position: relative;
+            display: flex;
+            align-items: center;
+            &:before{
+                content:"";
+                width: 100px;
+                height: 3px;
+                background-color: $white;
+                margin-right: 10px;
+            }
+            a{
+                color:$white;
+            }
+        }
+        h1{
+            color: $white;
+            width: 50%;
+            font-weight: 900;
+            font-size: 75px;
+            text-transform: uppercase;
+        }
+    }
+}
+.banner-img{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+
+    video{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        object-fit: cover;
+
+
+    }
+}
+.img-banner{
+    width: 100%;
+    height: auto;
+}
+
+.counter-section{
+    background-color: #F5F7FC;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    h2{
+        font-size: 70px;
+        font-weight: 900;
+        color:#A6A9B5;
+    }
+    p{
+        font-size: 25px;
+        font-weight: normal;
+        color:#A6A9B5;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+
+    }
+}
+.about-content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 70%;
+    width: 52%;
+    background-color: rgba($main-color, 0.7);
+    z-index: 2;
+    padding:0 5rem;
+    display:flex;
+    align-items: center;
+    h2{
+        font-weight: 900;
+        color:$white;
+    }
+    p{
+        font-size: 25px;
+        color:$white;
+    }
+}
+.rm{
+    font-size: 20px;
+    color:$white;
+    padding-right: 30px;
+    text-transform: uppercase;
+    background-image: url("../media/images/Icon feather-arrow-right.svg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    display: inline-flex;
+    transition: ease all 0.5s;
+    &:hover{
+        color:$white;
+        padding-right: 50px;
+    }
+
+}
+.about-img{
+    width: 100%;
+}
+.img-about{
+    width: 100%;
+}
+.pr-img{
+    width: 52%;
+    float: right;
+}
+.portfolio-centent{
+    width: 52%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 70%;
+    background-color: rgba(#009FE3, 0.9);
+    z-index: 2;
+    padding:0 5rem;
+    display:flex;
+    align-items: center;
+    h2{
+        font-weight: 900;
+        color:$white;
+    }
+    p{
+        font-size: 25px;
+        color:$white;
+    }
+
+}
+.partner-img{
+    float: left;
+    width: 52%;
+}
+.partner-carousel{
+    .partner-centent{
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        height: 70%;
+        width: 52%;
+        background-color:rgba($main-color, 0.7);
+        z-index: 2;
+        padding:0 5rem;
+        display:flex;
+        align-items: center;
+        h3{
+            font-size: 60px;
+            font-weight:normal;
+            color:$white;
+        }
+        p{
+            font-size: 18px;
+            letter-spacing: 3px;
+            color:$white;
+        }
+    
+    }
+}
+
+.carousel-nav {
+    .owl-theme .owl-nav {
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+      width:100%;
+      top:50%;
+      align-items: center;
+      transform: translateY(-50%);
+      margin-top: 0;
+      padding: 0 5rem;
+    }
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel .owl-nav button.owl-next {
+      position: relative;
+      transition: ease all 0.5s;
+    }
+    .owl-carousel .owl-nav button.owl-prev {
+      left: 0px;
+      &:hover{
+        left: -20px;
+      }
+    }
+    .owl-carousel .owl-nav button.owl-next {
+      right: 0px;
+      &:hover{
+        right: -20px;
+      }
+    }
+  
+    .owl-carousel .owl-nav button.owl-prev span,
+    .owl-carousel .owl-nav button.owl-next span {
+      width:48px;
+      height:48px;
+      @include border-radius(50%);
+      display: block;
+      background-position: center;
+      font-size: 0px;
+      transition: ease all 0.5s;
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
+    .owl-carousel .owl-nav button.owl-prev span {
+      background-image: url("../media/images/arrow-left.png");
+      
+    }
+    .owl-carousel .owl-nav button.owl-next span {
+      background-image: url("../media/images/arrow-right.png");
+    }
+    .owl-theme .owl-nav [class*="owl-"]:hover {
+      background: transparent;
+    }
+    .owl-theme .owl-nav .disabled{
+        opacity: 1;
+    }
+  }
+  .footer{
+    background-color: #F6F6F6;
+    padding-top: 50px;
+    padding-bottom:20px;
+
+    h4{
+        font-size: 25px;
+        letter-spacing: 5px;
+        color:$main-color;
+        text-transform: uppercase;
+    }
+  }
+  .footer-nav{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+
+    li{
+        flex:0 0 40%;
+        margin-bottom: 30px;
+
+        a{
+            font-size: 18px;
+            color:$main-color;
+            transition: ease all 0.5s;
+            &:hover{
+                opacity: 0.75;
+            }
+        }
+    }
+    
+
+  }
+  .social-link{
+    display: inline-block;
+    &:hover{
+        opacity: 0.75;
+    }
+    img{
+        vertical-align: top;
+    }
+  }
+  .copyright{
+    color:$main-color;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .video-play{
+        float: right;
+        &:hover{
+            animation: plbtn 1s infinite;
+
+        }
+
+  }
+
+  @keyframes plbtn{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+  }
+.title{
+    font-size: 60px!important;
+    font-weight: 900;
+    color:$main-color;
+    display: inline-block;
+    border-bottom:3px solid $main-color;
+    padding: 0 30px 15px;
+    letter-spacing: 5px;
+}
+p{
+    font-size: 18px;
+}
+.main-color{
+    color:$main-color;
+}

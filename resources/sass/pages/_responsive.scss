@@ -1,0 +1,289 @@
+@media(max-width:1440px){
+    body.body h2{
+        font-size: 45px;
+    }
+    .counter-section p{
+        font-size: 17px;
+
+    }
+    .banner .banner-caption h1{
+        font-size: 55px;
+    }
+}
+
+@media(max-width:1366px){
+    .banner .banner-caption h1{
+        font-size: 55px;
+    }
+    body.body .container-fluid{
+        padding: 0 2rem;
+    }
+    body.body h2{
+        font-size: 45px;
+    }
+    .title{
+        font-size: 45px!important;
+    }
+    .partner-carousel .partner-centent h3{
+        font-size: 30px;
+    }
+    .ov-circle{
+        zoom: 0.8;
+    }
+    .counter-section p{
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}
+
+@media(max-width:1024px){
+    
+    .ovp-list h4{
+        font-size: 22px;
+    }
+    .ovp-title p{
+        font-size: 20px;
+    }
+    body.body .container-fluid{
+        padding: 0 1.5rem;
+    }
+    body.body h2{
+        font-size: 40px;
+    }
+    .title{
+        font-size: 40px!important;
+    }
+    .banner .banner-caption h1{
+        font-size: 50px;
+        width: 80%;
+    }
+    .banner .banner-caption span{
+        font-size: 20px;
+    }
+    .banner .banner-caption p, .about-content p, .portfolio-centent p{
+        font-size: 16px;
+    }
+    .counter-section p{
+        font-size: 12px;
+        letter-spacing: 3px;
+    }
+    .video-play{
+        width: 60px;
+    }
+    .partner-carousel .partner-centent h3{
+        font-size: 28px;
+    }
+    .partner-carousel .partner-centent p{
+        font-size: 14px;
+
+    }
+    .carousel-nav .owl-theme .owl-nav{
+        padding: 0 1.5rem;
+    }
+    .nav-wrapper{
+        width: 70%;
+    }
+    .ov-circle {
+        zoom: 0.6;
+    }
+    .o_f_box .o_f_box_content h3{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:992px){
+    .banner-img{
+        height: 70vh;
+    }
+    .ov-circle {
+        zoom: 0.8;
+    }
+    .ov-list{
+        
+        position: relative;
+        left: unset!important;
+        right: unset!important;
+        top: unset!important;
+        width: 100%;
+        &:before{
+            content:"";
+            width: 50px;
+            height: 1px;
+            background-color: #3a93ff;
+            position: absolute;
+            right:calc(100% + 10px);
+            top:26px;
+        }
+    }
+    .title-normal{
+        font-size: 30px!important;
+    }
+    .page-wrapper{
+        padding-top:85px;
+    }
+    body.body h2{
+        font-size: 30px;
+    }
+    .banner .banner-caption h1{
+        font-size: 30px;
+    }
+    .banner .banner-caption span{
+        font-size: 13px;
+    }
+    .banner .banner-caption p, .about-content p, .portfolio-centent p{
+        font-size: 13px;
+    }
+    .portfolio-centent, .about-content, .partner-carousel .partner-centent{
+        width: 90%;
+    }
+    .partner-carousel .partner-centent h3{
+        font-size: 20px;
+    }
+    .footer-nav li{
+        margin-bottom: 10px;
+    }
+    .footer-nav li a, .copyright{
+        font-size: 14px;
+    }
+    .footer h4{
+        font-size: 16px;
+    }
+    .carousel-nav .owl-carousel .owl-nav button.owl-prev span, .carousel-nav .owl-carousel .owl-nav button.owl-next span{
+        width: 30px;
+        height: 30px;
+    }
+    .nav-wrapper{
+        padding: 30px;
+        width: 50%;
+    }
+    .navigation li{
+        margin-bottom: 30px;
+    }
+    .navigation a{
+        font-size: 18px;
+    }
+    .title{
+        font-size: 30px!important;
+    }
+    .ir-title{
+        font-size: 30px;
+    }
+    .investment-remit-list li h4{
+        font-size: 24px;
+    }
+    .ovp-title h3{
+        font-size: 30px;
+    }
+    .ovp-title p{
+        font-size: 20px;
+    }
+    .ovp-list h4{
+        font-size: 22px;
+    }
+    
+}
+
+@media(max-width:767px){
+    .ov-circle {
+        zoom: 0.8;
+    }
+    .ov-list:before{
+        display: none;
+    }
+    .ovp-title h3{
+        font-size: 30px;
+    }
+    .ovp-title p{
+        font-size: 18px;
+    }
+    .ovp-list h4{
+        font-size: 20px;
+    }
+    .investment-remit-list li p{
+        font-size: 14px;
+    }
+    .page-wrapper{
+        padding-top:58px;
+    }
+    .logo{
+        width: 80px;
+    }
+    .banner .banner-caption{
+        padding: 0 1em;
+    }
+    .banner{
+        height: 70vh;
+    }
+    .banner-img{
+        height: 100%;
+    }
+    .img-banner{
+       height: 100%;
+       width: auto;
+    }
+    .nav-wrapper{
+        width: 90%;
+    }
+    .navigation li{
+        width: 100%;
+        flex:0 0 100%;
+    }
+    .about-section, .portfolio-section{
+        height: 70vh;
+    }
+    .about-img{
+        height: 100%;
+
+    }
+    .img-about {
+        width: auto;
+        height: 100%;
+    }
+    .portfolio-centent, .about-content, .partner-carousel .partner-centent{
+        padding: 0 1.5rem;
+    }
+    .partner-img{
+        float: none;
+        width: 100%;
+    }
+    .portfolio-centent, .about-content, .partner-carousel .partner-centent{
+        width: 100%;
+    }
+    .partner-carousel .partner-centent{
+        height: auto;
+        padding: 1.5rem;
+        top: 0;
+        transform: unset;
+        position: static;
+    }
+    .partner-carousel .partner-centent h3{
+        font-size: 16px;
+    }
+    .partner-carousel .partner-centent p{font-size: 12px;}
+    .video-play{
+        width: 60px;
+    }
+    .filtering .row .item{
+        width: 33.333%;
+        flex:0 0 33.333%;
+    }
+    .filtering li{
+        width: 50%;
+        border-bottom:1px solid $black;
+        border-right:0;
+    }
+    .filtering button{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:480px){
+    .o_f_box{
+        .img-box{
+            img.img-fluid{
+                max-width: inherit;
+                width: 100%;
+            }
+        }
+    }
+}

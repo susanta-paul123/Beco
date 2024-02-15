@@ -1,0 +1,78 @@
+.banner .banner-caption{
+    top: 50%;
+}
+.video-play{
+   margin-top: -100px;
+}
+.carousel-nav .owl-carousel .owl-nav button.owl-next{
+    right: -60px;
+}
+.carousel-nav .owl-carousel .owl-nav button.owl-prev{
+    left: -60px;
+}
+.carousel-nav .owl-carousel .owl-nav button.owl-next:hover{
+    right: -60px;
+}
+.carousel-nav .owl-carousel .owl-nav button.owl-prev:hover{
+    left: -60px;
+}
+
+
+.partner-centent h2{
+    font-weight: 900;
+    color:#fff;
+}
+
+/* portfolio tabs */
+.portfolio-tabs .tabbar{
+    display: flex;
+    justify-content: center;
+}
+.portfolio-tabs .nav-tabs{
+    border: 0;
+}
+.portfolio-tabs .nav-tabs .nav-link {
+    padding: 0.5rem 2em;
+    border: 0;
+    color: #000000;
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    -webkit-transition: ease all 0.5s;
+    transition: ease all 0.5s;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 0;
+}
+.portfolio-tabs  .nav-tabs .nav-link.active, 
+.portfolio-tabs  .nav-tabs .nav-item.show .nav-link {
+    background-color: #19A8E5;
+    color: #ffffff;
+}
+.portfolio-tabs .tab-content .row .item {
+    width: 20%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    padding: 15px;
+    -webkit-transition: ease all 0.5s;
+    transition: ease all 0.5s;
+    cursor: pointer;
+    margin-bottom: 15px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-tabs .tab-content{
+     padding-top: 30px;
+}
+.portfolio-tabs .tab-content .row .item:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%); 
+}
+/* end */
